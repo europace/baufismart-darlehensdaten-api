@@ -65,7 +65,8 @@ definitions:
         $ref: '#/definitions/PartnerId'
       vermittlerNummer:
         type: string
-
+      vertriebsOrganisation:
+        type: string
   Antragsteller:
     description: Daten eines Antragsteller
     type: object
@@ -259,4 +260,6 @@ definitions:
           code:
             type: integer
           message:
+            type: string
+          key:
             type: string
