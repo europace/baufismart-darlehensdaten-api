@@ -143,6 +143,11 @@ definitions:
         type: string
         format: date
         example: 2020-12-31
+      laufzeitEnde:
+        description: Laufzeitende, Datum nach RFC3339
+        type: string
+        format: date
+        example: 2020-12-31
       aktuelleRestschuld:
         $ref: '#/definitions/Euro'
       restschuldZumZinsbindungsende:
