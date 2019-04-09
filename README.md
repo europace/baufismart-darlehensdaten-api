@@ -9,5 +9,5 @@ Diese API kann von Produktanbietern als Service-Provider angebunden werden, um E
 
 Die API ist nach *OpenAPI Spec 2.0* (https://openapis.org/) spezifiziert.
 
-Spezifikation: https://github.com/OAI/OpenAPI-Specification
-Swagger: http://editor.swagger.io/#/?import=https://raw.githubusercontent.com/europace/baufismart-darlehensdaten-api/master/swagger.yaml
+* Spezifikation: https://github.com/OAI/OpenAPI-Specification
+* Swagger: http://editor.swagger.io/#/?import=https://raw.githubusercontent.com/europace/baufismart-darlehensdaten-api/master/swagger.yaml
