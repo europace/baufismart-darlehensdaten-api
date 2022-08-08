@@ -47,6 +47,16 @@ definitions:
       Eindeutige Nummer des Darlehens beim Produktanbieter, z.B. Darlehensnummer, Kontonummer oder IBAN.
       Kann Buchstaben, Zahlen oder andere Sonderzeichen enthalten.
 
+  Filialnummer:
+    type: string
+    description: |
+      fuer die Deutsche Bank und DSL relevant
+
+  Kontonummer:
+    type: string
+    description: |
+      fuer die Deutsche Bank und DSL relevant
+
   PartnerId:
     type: string
     description: |
@@ -173,6 +183,10 @@ definitions:
     properties:
       hauptkontonummer:
         $ref: '#/definitions/Hauptkontonummer'
+      filialnummer:
+        $ref: '#/definitions/Filialnummer'
+      kontonummer:
+        $ref: '#/definitions/kontonummer'
       bestehendeDarlehen:
         type: array
         items:
