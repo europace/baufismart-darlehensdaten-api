@@ -186,7 +186,7 @@ definitions:
       filialnummer:
         $ref: '#/definitions/Filialnummer'
       kontonummer:
-        $ref: '#/definitions/kontonummer'
+        $ref: '#/definitions/Kontonummer'
       bestehendeDarlehen:
         type: array
         items:
