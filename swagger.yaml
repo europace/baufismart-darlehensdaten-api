@@ -52,7 +52,7 @@ definitions:
     description: |
       fuer die Deutsche Bank und DSL relevant
 
-  Kontonummer:
+  Kundennummer:
     type: string
     description: |
       fuer die Deutsche Bank und DSL relevant
@@ -185,8 +185,8 @@ definitions:
         $ref: '#/definitions/Hauptkontonummer'
       filialnummer:
         $ref: '#/definitions/Filialnummer'
-      kontonummer:
-        $ref: '#/definitions/Kontonummer'
+      kundennummer:
+        $ref: '#/definitions/Kundennummer'
       bestehendeDarlehen:
         type: array
         items:
