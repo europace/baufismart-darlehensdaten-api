@@ -207,6 +207,8 @@ definitions:
           $ref: '#/definitions/Dokument'
       datenKontext:
         $ref: '#/definitions/DatenKontext'
+      darlehensgeber:
+        type: string
 
   DarlehensdatenAntwort:
     type: object
