@@ -41,12 +41,6 @@ paths:
 
 # Objektdefinitionen
 definitions:
-  Hauptkontonummer:
-    type: string
-    description: |
-      Eindeutige Nummer des Darlehens beim Produktanbieter, z.B. Darlehensnummer, Kontonummer oder IBAN.
-      Kann Buchstaben, Zahlen oder andere Sonderzeichen enthalten.
-
   Filialnummer:
     type: string
     description: |
@@ -178,11 +172,7 @@ definitions:
 
   DarlehensdatenAnfrage:
     type: object
-    required:
-      - hauptkontonummer
     properties:
-      hauptkontonummer:
-        $ref: '#/definitions/Hauptkontonummer'
       filialnummer:
         $ref: '#/definitions/Filialnummer'
       kundennummer:
@@ -213,8 +203,6 @@ definitions:
   DarlehensdatenAntwort:
     type: object
     properties:
-      hauptkontonummer:
-        $ref: '#/definitions/Hauptkontonummer'
       bestehendeDarlehen:
         type: array
         items:
