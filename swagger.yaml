@@ -130,8 +130,6 @@ definitions:
     type: object
     required:
       - darlehensKontonummer
-      - aktuelleRestschuld
-      - restschuldZumZinsbindungsende
     properties:
       darlehensKontonummer:
         description: IBAN, Konto- oder Unterkontonummer des Produktanbieters.
