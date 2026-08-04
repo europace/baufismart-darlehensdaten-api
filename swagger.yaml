@@ -4,7 +4,7 @@ info:
     Produktanbieter-Darlehensdaten API
     Benutzt werden JSON Datentypen, siehe http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
   title: PADD API
-  version: 0.0.5
+  version: 0.0.6
 schemes:
 - http
 - https
@@ -130,8 +130,6 @@ definitions:
     type: object
     required:
       - darlehensKontonummer
-      - aktuelleRestschuld
-      - restschuldZumZinsbindungsende
     properties:
       darlehensKontonummer:
         description: IBAN, Konto- oder Unterkontonummer des Produktanbieters.
